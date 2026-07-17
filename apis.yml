@@ -1,0 +1,82 @@
+---
+aid: sv-angel
+name: SV Angel
+description: >-
+  SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron
+  Conway, one of Silicon Valley's most prolific angel investors. The firm runs two
+  vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed
+  and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond.
+  SV Angel is a founder-first, high-conviction investor that deliberately does not
+  lead rounds, takes no board seats, and writes smaller checks as part of a larger
+  syndicate so it can act as a neutral "routing layer" and advocate for founders. It
+  is famous for its "Inflection Point Approach" — showing up at critical moments
+  around fundraising, M&A, and business development. The firm invests almost entirely
+  in US-based, software-driven companies across consumer and enterprise, and its
+  portfolio has produced dozens of unicorns and landmark outcomes including Google,
+  Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub,
+  Databricks, Anthropic, and OpenAI.
+x-type: venture-capital
+x-category: Angel
+image: https://svangel.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Angel
+  - Seed
+  - Growth
+  - Developer Tools
+  - Fintech
+  - Artificial Intelligence
+  - Consumer
+  - Enterprise
+  - San Francisco
+  - United States
+apis: []
+common:
+  - type: Website
+    url: https://svangel.com/
+  - type: Portfolio
+    url: https://svangel.com/portfolio
+  - type: Portfolio
+    url: portfolio/sv-angel-portfolio.yml
+  - type: Team
+    url: https://svangel.com/about/team
+  - type: Team
+    url: team/sv-angel-team.yml
+  - type: InvestmentThesis
+    url: https://svangel.com/about/approach
+  - type: Blog
+    url: https://medium.com/@svangel
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sv-angel
+  - type: Twitter
+    url: https://twitter.com/svangel
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/sv-angel
+  - type: Jobs
+    url: https://jobs.svangel.com/
+  - type: Features
+    data:
+      - 'Stage: Seed (Seed Fund) and Growth (Series B and later)'
+      - 'Typical check: ~$200k (Seed Fund)'
+      - 'Lead investor: No — does not lead rounds, smaller check within a syndicate'
+      - 'Board seats: No — chooses not to take board seats'
+      - 'Sectors: software, consumer, enterprise, AI, fintech, developer tools, healthcare, crypto'
+      - 'Geography: primarily US-based, invests outside Silicon Valley'
+      - 'Founded: 2009'
+      - 'HQ: San Francisco, CA'
+      - 'Founder: Ron Conway'
+    sources:
+      - https://svangel.com/faq
+      - https://svangel.com/about
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: SV Angel
+    url: https://svangel.com
