@@ -3,9 +3,9 @@ method: searched
 source: https://svangel.com/portfolio
 summary:
   portfolio_total: 141
-  in_network: 96
-  api_providers: 66
-  missing: 45
+  in_network: 141
+  api_providers: 73
+  missing: 0
   stubs_created: 0
 companies:
 - name: Abridge
@@ -67,9 +67,10 @@ companies:
   sector: crypto
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anchorage-digital
+  in_network: true
+  is_api_provider: true
+  slug: anchorage
+  matched_by: domain
 - name: Anduril
   url: https://anduril.com
   sector: defense
@@ -106,24 +107,25 @@ companies:
   slug: applied-compute
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Applied Intuition
   url: https://appliedintuition.com
   sector: autonomous-vehicles
   status: active
   source: https://svangel.com/portfolio
-  slug: applied-intuition
+  slug: appliedintuition
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Armada
   url: https://armada.ai
   sector: infrastructure
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: armada
+  in_network: true
+  is_api_provider: true
+  slug: armada
+  matched_by: domain
 - name: Asana
   url: https://asana.com
   sector: productivity
@@ -156,9 +158,10 @@ companies:
   sector: crypto
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aztec
+  slug: aztec
+  matched_by: domain
 - name: Benchling
   url: https://benchling.com
   sector: biotech
@@ -176,7 +179,7 @@ companies:
   slug: betterup
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Black Forest Labs
   url: https://bfl.ai
   sector: ai
@@ -191,17 +194,19 @@ companies:
   sector: aerospace
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boom
+  slug: boom-supersonic
+  matched_by: domain
 - name: Bowery
   url: https://boweryfarming.com
   sector: agtech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bowery
+  slug: bowery
+  matched_by: domain
 - name: Browser Use
   url: https://browser-use.com
   sector: ai
@@ -216,7 +221,7 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  slug: captions-ai
+  slug: captions
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -234,17 +239,19 @@ companies:
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cedar
+  slug: cedar
+  matched_by: domain
 - name: Cellanome
   url: https://cellanome.com
   sector: biotech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cellanome
+  slug: cellanome
+  matched_by: domain
 - name: Cerebras
   url: https://cerebras.net
   sector: ai-hardware
@@ -286,9 +293,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coactive
+  in_network: true
+  is_api_provider: true
+  slug: coactive
+  matched_by: domain
 - name: Cockroach Labs
   url: https://cockroachlabs.com
   sector: developer-tools
@@ -312,18 +320,19 @@ companies:
   sector: healthcare
   status: acquired
   source: https://svangel.com/portfolio
-  slug: color-genomics
+  slug: color
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Course Hero
   url: https://coursehero.com
   sector: edtech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: course-hero
+  slug: course-hero
+  matched_by: domain
 - name: Covariant
   url: https://covariant.ai
   sector: ai
@@ -338,25 +347,28 @@ companies:
   sector: fintech
   status: ipo
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: credit-karma
+  slug: creditkarma
+  matched_by: domain
 - name: Cruise
   url: https://getcruise.com
   sector: autonomous-vehicles
   status: acquired
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cruise
+  slug: cruise
+  matched_by: domain
 - name: Dapper Labs
   url: https://dapperlabs.com
   sector: crypto
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dapper-labs
+  slug: dapperlabs
+  matched_by: domain
 - name: Databricks
   url: https://databricks.com
   description: Data and AI lakehouse platform
@@ -453,9 +465,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flatiron-health
+  slug: flatiron-health
+  matched_by: domain
 - name: Flexport
   url: https://flexport.com
   sector: logistics
@@ -470,17 +483,19 @@ companies:
   sector: security
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flock-safety
+  in_network: true
+  is_api_provider: true
+  slug: flock-safety
+  matched_by: domain
 - name: Formation Bio
   url: https://formation.bio
   sector: biotech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: formation-bio
+  slug: formation
+  matched_by: domain
 - name: Function Health
   url: https://functionhealth.com
   sector: healthcare
@@ -488,7 +503,7 @@ companies:
   source: https://svangel.com/portfolio
   slug: function-health
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: GitHub
   url: https://github.com
@@ -505,9 +520,10 @@ companies:
   sector: marketplace
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goat
+  slug: goat
+  matched_by: domain
 - name: Google
   url: https://google.com
   sector: internet
@@ -522,17 +538,19 @@ companies:
   sector: healthcare
   status: ipo
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grail
+  slug: grail
+  matched_by: domain
 - name: Guideline
   url: https://guideline.com
   sector: fintech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guideline
+  slug: guideline
+  matched_by: domain
 - name: Gusto
   url: https://gusto.com
   sector: hr
@@ -565,9 +583,10 @@ companies:
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hims
+  slug: hims
+  matched_by: domain
 - name: Hippocratic AI
   url: https://hippocraticai.com
   sector: ai
@@ -591,17 +610,19 @@ companies:
   sector: fintech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-interest
+  slug: human-interest
+  matched_by: domain
 - name: Humans&
   url: https://humansand.ai
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humans-and
+  slug: humansand
+  matched_by: domain
 - name: Instacart
   url: https://instacart.com
   sector: marketplace
@@ -635,9 +656,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iru
+  slug: iru
+  matched_by: domain
 - name: Kalshi
   url: https://kalshi.com
   sector: fintech
@@ -652,9 +674,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kumoai
+  slug: kumoai
+  matched_by: domain
 - name: Lattice
   url: https://lattice.com
   sector: hr
@@ -669,33 +692,37 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightning-ai
+  slug: lightning-ai
+  matched_by: domain
 - name: Magical
   url: https://getmagical.com
   sector: productivity
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magical
+  slug: magical
+  matched_by: domain
 - name: Mammoth Biosciences
   url: https://mammoth.bio
   sector: biotech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mammoth-biosciences
+  slug: mammoth-biosciences
+  matched_by: domain
 - name: Mandolin
   url: https://mandolin.com
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mandolin
+  slug: mandolin
+  matched_by: domain
 - name: Mercor
   url: https://mercor.com
   sector: hr
@@ -728,7 +755,7 @@ companies:
   sector: fintech
   status: active
   source: https://svangel.com/portfolio
-  slug: method-fi
+  slug: methodfi
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -740,7 +767,7 @@ companies:
   slug: mind-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mistral
   url: https://mistral.ai
   sector: ai
@@ -755,9 +782,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modular
+  slug: modular
+  matched_by: domain
 - name: Near
   url: https://near.org
   sector: crypto
@@ -772,17 +800,19 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: netic
+  slug: netic
+  matched_by: domain
 - name: Newfront
   url: https://newfront.com
   sector: insurtech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newfront
+  slug: newfront
+  matched_by: domain
 - name: Notion
   url: https://notion.so
   sector: productivity
@@ -835,8 +865,8 @@ companies:
   source: https://svangel.com/portfolio
   slug: parallel
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Patreon
   url: https://patreon.com
   sector: creator
@@ -851,25 +881,28 @@ companies:
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pearl-health
+  slug: pearl-health
+  matched_by: domain
 - name: Periodic Labs
   url: https://periodic.com
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periodic-labs
+  slug: periodic
+  matched_by: domain
 - name: Pilot
   url: https://pilot.com
   sector: fintech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pilot
+  slug: pilot
+  matched_by: domain
 - name: Pinterest
   url: https://pinterest.com
   sector: internet
@@ -920,9 +953,9 @@ companies:
   sector: fintech
   status: active
   source: https://svangel.com/portfolio
-  slug: neobanks
+  slug: revolut
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Ribbon Health
   url: https://ribbonhealth.com
@@ -947,7 +980,7 @@ companies:
   sector: proptech
   status: active
   source: https://svangel.com/portfolio
-  slug: stessa
+  slug: roofstock
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -956,9 +989,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sdsa
+  slug: sdsa
+  matched_by: domain
 - name: Segment
   url: https://segment.com
   sector: data
@@ -973,9 +1007,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesame
+  slug: sesame
+  matched_by: name-slug
 - name: ShipBob
   url: https://shipbob.com
   sector: logistics
@@ -1026,9 +1061,10 @@ companies:
   sector: proptech
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snapdocs
+  slug: snapdocs
+  matched_by: domain
 - name: Snorkel AI
   url: https://snorkel.ai
   sector: ai
@@ -1036,7 +1072,7 @@ companies:
   source: https://svangel.com/portfolio
   slug: snorkel-ai
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Square
   url: https://squareup.com
@@ -1052,9 +1088,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-ai
+  slug: standard-ai
+  matched_by: domain
 - name: Stripe
   url: https://stripe.com
   description: Online payments infrastructure
@@ -1070,25 +1107,28 @@ companies:
   sector: data
   status: acquired
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tabular
+  slug: tabular
+  matched_by: domain
 - name: Tecton
   url: https://tecton.ai
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tecton
+  slug: tecton
+  matched_by: domain
 - name: The Bot Company
   url: https://bot.co
   sector: robotics
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-bot-company
+  slug: the-bot-company
+  matched_by: domain
 - name: The Trade Desk
   url: https://thetradedesk.com
   sector: adtech
@@ -1112,9 +1152,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: traversal
+  in_network: true
+  is_api_provider: true
+  slug: traversal
+  matched_by: domain
 - name: Twilio
   url: https://twilio.com
   description: Communications APIs
@@ -1167,17 +1208,19 @@ companies:
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vetcove
+  slug: vetcove
+  matched_by: domain
 - name: Warby Parker
   url: https://warbyparker.com
   sector: consumer
   status: ipo
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
 - name: Watershed
   url: https://watershed.com
   sector: climate
@@ -1210,17 +1253,19 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: world-labs
+  in_network: true
+  is_api_provider: true
+  slug: world-labs
+  matched_by: domain
 - name: Yuga Labs
   url: https://yuga.com
   sector: crypto
   status: active
   source: https://svangel.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuga-labs
+  slug: yuga-labs
+  matched_by: domain
 - name: Zapier
   url: https://zapier.com
   description: Workflow automation between apps
