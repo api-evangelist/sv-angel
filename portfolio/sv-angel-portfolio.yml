@@ -863,7 +863,7 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  slug: parallel
+  slug: parallel-ai
   in_network: true
   is_api_provider: true
   matched_by: domain
