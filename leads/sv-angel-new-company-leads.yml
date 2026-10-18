@@ -1,4 +1,18 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: sv-angel
-leads: []
+leads:
+- name: Cerebras
+  url: https://cerebras.net
+  suggested_slug: cerebras
+  sector: ai-hardware
+  source_vc: sv-angel
+  source: https://svangel.com/portfolio
+  stub_created: false
+- name: Sesame
+  url: https://sesame.com
+  suggested_slug: sesame-com
+  sector: ai
+  source_vc: sv-angel
+  source: https://svangel.com/portfolio
+  stub_created: false

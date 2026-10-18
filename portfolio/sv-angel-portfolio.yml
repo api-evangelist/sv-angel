@@ -3,9 +3,9 @@ method: searched
 source: https://svangel.com/portfolio
 summary:
   portfolio_total: 141
-  in_network: 141
-  api_providers: 73
-  missing: 0
+  in_network: 139
+  api_providers: 74
+  missing: 2
   stubs_created: 0
 companies:
 - name: Abridge
@@ -257,10 +257,9 @@ companies:
   sector: ai-hardware
   status: active
   source: https://svangel.com/portfolio
-  slug: cerebras
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: cerebras
 - name: Chainalysis
   url: https://chainalysis.com
   sector: crypto
@@ -349,7 +348,7 @@ companies:
   source: https://svangel.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: creditkarma
+  slug: credit-karma
   matched_by: domain
 - name: Cruise
   url: https://getcruise.com
@@ -366,8 +365,8 @@ companies:
   status: active
   source: https://svangel.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: dapperlabs
+  is_api_provider: true
+  slug: dapper-labs
   matched_by: domain
 - name: Databricks
   url: https://databricks.com
@@ -393,7 +392,7 @@ companies:
   sector: hr
   status: active
   source: https://svangel.com/portfolio
-  slug: deel
+  slug: deel-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -438,7 +437,7 @@ companies:
   sector: insurtech
   status: active
   source: https://svangel.com/portfolio
-  slug: ethos-life
+  slug: ethos
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -494,7 +493,7 @@ companies:
   source: https://svangel.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: formation
+  slug: formation-bio
   matched_by: domain
 - name: Function Health
   url: https://functionhealth.com
@@ -601,7 +600,7 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  slug: 1x-robotics
+  slug: 1x-technologies
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -657,8 +656,8 @@ companies:
   status: active
   source: https://svangel.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: iru
+  is_api_provider: true
+  slug: kandji
   matched_by: domain
 - name: Kalshi
   url: https://kalshi.com
@@ -845,7 +844,7 @@ companies:
   sector: insurtech
   status: active
   source: https://svangel.com/portfolio
-  slug: oscar-health
+  slug: oscar
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -892,7 +891,7 @@ companies:
   source: https://svangel.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: periodic
+  slug: periodic-labs
   matched_by: domain
 - name: Pilot
   url: https://pilot.com
@@ -962,7 +961,7 @@ companies:
   sector: healthcare
   status: active
   source: https://svangel.com/portfolio
-  slug: ribbon-health
+  slug: h1
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1007,10 +1006,10 @@ companies:
   sector: ai
   status: active
   source: https://svangel.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sesame
-  matched_by: name-slug
+  x-name-collision: sesame
+  suggested_slug: sesame-com
 - name: ShipBob
   url: https://shipbob.com
   sector: logistics
@@ -1134,7 +1133,7 @@ companies:
   sector: adtech
   status: ipo
   source: https://svangel.com/portfolio
-  slug: the-trade-desk
+  slug: trade-desk
   in_network: true
   is_api_provider: true
   matched_by: domain
